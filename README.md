@@ -1,6 +1,6 @@
-Trabalho – Arquitetura e Soluções Cloud
-Alunos: Angely Munoz, Lucas Moro, Matheus Lucas da Silva, Erick Werner
-Definição do sistema — OrquestraCompras
+###Trabalho – Arquitetura e Soluções Cloud
+##Alunos: Angely Munoz, Lucas Moro, Matheus Lucas da Silva, Erick Werner
+#Definição do sistema — OrquestraCompras
 O OrquestraCompras é uma plataforma web inteligente que auxilia usuários na busca e combinação de produtos disponíveis em diferentes lojas de e-commerce.
 O usuário informa suas necessidades, preferências, orçamento disponível e lojas que deseja consultar. A partir dessas informações, o sistema utiliza agentes de Inteligência Artificial para pesquisar produtos nos e-commerces selecionados, analisar preços e características e gerar combinações de produtos adequadas aos critérios definidos pelo usuário.
 A solução utiliza um modelo de linguagem (LLM) como apoio à interpretação das necessidades e análise das opções encontradas. O sistema também aplica regras de orçamento e restrições para selecionar e apresentar as melhores combinações ao usuário.
