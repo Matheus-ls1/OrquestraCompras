@@ -1,4 +1,4 @@
-<img width="397" height="866" alt="image" src="https://github.com/user-attachments/assets/b26a637a-6ba0-484a-bf54-af890bdb6e7d" />### Trabalho – Arquitetura e Soluções Cloud
+### Trabalho – Arquitetura e Soluções Cloud
 ## Alunos: Angely Munoz, Lucas Moro, Matheus Lucas da Silva, Erick Werner
 # Definição do sistema — OrquestraCompras
 O OrquestraCompras é uma plataforma web inteligente que auxilia usuários na busca e combinação de produtos disponíveis em diferentes lojas de e-commerce.
@@ -11,8 +11,7 @@ O diagrama abaixo ilustra o contexto geral do sistema OrquestraCompras e suas in
 
 <img width="810" height="440" alt="Diagrama_1" src="https://github.com/user-attachments/assets/548b4aac-d1dc-4bc9-ac4b-9ae7ffcf1ccd" />
 
- 
-Código
+# Código
 @startuml
 skinparam defaultTextAlignment center
 skinparam rectangle {
@@ -40,6 +39,7 @@ matchmaker --> ecommerce : Navega e extrai dados de produtos (preço, imagem, li
 ## Diagrama de Containers (Nível 2)
 O diagrama abaixo detalha os containers de software que compõem o sistema **OrquestraCompras**, dividindo a aplicação entre frontend, API de orquestração, workers assíncronos e camadas de persistência.
 
+<img width="740" height="1365" alt="Diagrama 2" src="https://github.com/user-attachments/assets/4fa5e89c-d0cd-48ed-a254-5c69b2c5c4b1" />
  
 ### Descrição dos Containers
 
@@ -51,7 +51,7 @@ O diagrama abaixo detalha os containers de software que compõem o sistema **Orq
 
 ---
 
-### Código Fonte (PlantUML)
+# Código Fonte (PlantUML)
 
 plantuml
 @startuml
@@ -100,6 +100,7 @@ worker --> db : Atualiza resultados\n[SQL]
 ## Diagrama de Componentes (Nível 3)
 O diagrama abaixo detalha os principais **componentes internos** que formam os containers de backend do sistema, especificando as responsabilidades da API de Orquestração e do Worker de Agentes IA.
 
+![Uploading Diagrama 3.png…]()
  
 #### 1. API de Orquestração (FastAPI)
 * **AuthController:** Gerencia as rotas de autenticação, validando credenciais de usuários e emitindo tokens de acesso seguros.
