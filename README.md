@@ -11,7 +11,7 @@ O diagrama abaixo ilustra o contexto geral do sistema OrquestraCompras e suas in
 
 <img width="810" height="440" alt="Diagrama_1" src="https://github.com/user-attachments/assets/548b4aac-d1dc-4bc9-ac4b-9ae7ffcf1ccd" />
 
-# Código
+### Código
 @startuml
 skinparam defaultTextAlignment center
 skinparam rectangle {
@@ -51,7 +51,7 @@ O diagrama abaixo detalha os containers de software que compõem o sistema **Orq
 
 ---
 
-# Código Fonte (PlantUML)
+### Código Fonte (PlantUML)
 
 plantuml
 @startuml
