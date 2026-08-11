@@ -100,7 +100,7 @@ worker --> db : Atualiza resultados\n[SQL]
 ## Diagrama de Componentes (Nível 3)
 O diagrama abaixo detalha os principais **componentes internos** que formam os containers de backend do sistema, especificando as responsabilidades da API de Orquestração e do Worker de Agentes IA.
 
-![Uploading Diagrama 3.png…]()
+<img width="740" height="1365" alt="Diagrama 3" src="https://github.com/user-attachments/assets/ac14b3ea-4010-411a-a877-eebc0d807b23" />
  
 #### 1. API de Orquestração (FastAPI)
 * **AuthController:** Gerencia as rotas de autenticação, validando credenciais de usuários e emitindo tokens de acesso seguros.
