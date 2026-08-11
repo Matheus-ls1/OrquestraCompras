@@ -1,4 +1,4 @@
-### Trabalho – Arquitetura e Soluções Cloud
+<img width="397" height="866" alt="image" src="https://github.com/user-attachments/assets/b26a637a-6ba0-484a-bf54-af890bdb6e7d" />### Trabalho – Arquitetura e Soluções Cloud
 ## Alunos: Angely Munoz, Lucas Moro, Matheus Lucas da Silva, Erick Werner
 # Definição do sistema — OrquestraCompras
 O OrquestraCompras é uma plataforma web inteligente que auxilia usuários na busca e combinação de produtos disponíveis em diferentes lojas de e-commerce.
@@ -8,6 +8,9 @@ A solução utiliza um modelo de linguagem (LLM) como apoio à interpretação d
 
 ## Diagrama de Contexto (Nível 1)
 O diagrama abaixo ilustra o contexto geral do sistema OrquestraCompras e suas interações com usuários e sistemas externos.
+
+<img width="810" height="440" alt="Diagrama_1" src="https://github.com/user-attachments/assets/548b4aac-d1dc-4bc9-ac4b-9ae7ffcf1ccd" />
+
  
 Código
 @startuml
